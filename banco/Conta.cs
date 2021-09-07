@@ -13,9 +13,13 @@ namespace banco
         public double saldoInicial { get; set; }
         public double saldoAtual { get; set; }
 
-        public void SacarDinheiro(double valor) { }
+        public double SacarDinheiro(double valor) {
+            return saldoAtual -= valor;
+        }
 
-        public void DepositarDinheiro(double valor) { }
+        public double DepositarDinheiro(double valor) {
+            return saldoAtual += valor;
+        }
 
     }
 }
