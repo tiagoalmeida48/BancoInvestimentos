@@ -1,0 +1,144 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{1E4D8B90-0F08-40F1-87B6-27A811C9CE97}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>BancoInvestimento</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitattributes" />
+    <Content Include=".gitignore" />
+    <Content Include=".git\ms-persist.xml" />
+    <Content Include="banco\bin\Debug\netcoreapp3.1\banco.dll" />
+    <Content Include="banco\bin\Debug\netcoreapp3.1\banco.exe" />
+    <Content Include="banco\bin\Debug\netcoreapp3.1\banco.pdb" />
+    <Content Include="banco\obj\Debug\netcoreapp3.1\apphost.exe" />
+    <Content Include="banco\obj\Debug\netcoreapp3.1\banco.csproj.FileListAbsolute.txt" />
+    <Content Include="banco\obj\Debug\netcoreapp3.1\banco.dll" />
+    <Content Include="banco\obj\Debug\netcoreapp3.1\banco.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".git\COMMIT_EDITMSG" />
+    <None Include=".git\config" />
+    <None Include=".git\description" />
+    <None Include=".git\FETCH_HEAD" />
+    <None Include=".git\HEAD" />
+    <None Include=".git\hooks\applypatch-msg.sample" />
+    <None Include=".git\hooks\commit-msg.sample" />
+    <None Include=".git\hooks\fsmonitor-watchman.sample" />
+    <None Include=".git\hooks\post-update.sample" />
+    <None Include=".git\hooks\pre-applypatch.sample" />
+    <None Include=".git\hooks\pre-commit.sample" />
+    <None Include=".git\hooks\pre-merge-commit.sample" />
+    <None Include=".git\hooks\pre-push.sample" />
+    <None Include=".git\hooks\pre-rebase.sample" />
+    <None Include=".git\hooks\pre-receive.sample" />
+    <None Include=".git\hooks\prepare-commit-msg.sample" />
+    <None Include=".git\hooks\update.sample" />
+    <None Include=".git\index" />
+    <None Include=".git\info\exclude" />
+    <None Include=".git\logs\HEAD" />
+    <None Include=".git\logs\refs\heads\master" />
+    <None Include=".git\logs\refs\remotes\origin\master" />
+    <None Include=".git\objects\14\b4869536a75fe079136f4e5c7f7e06d0bb6881" />
+    <None Include=".git\objects\1f\1063cce2468f592b1d8d363e3f3237d5c96f2b" />
+    <None Include=".git\objects\1f\f0c423042b46cb1d617b81efb715defbe8054d" />
+    <None Include=".git\objects\21\5616ca34bd74818ee8d369c649f1fdfa299706" />
+    <None Include=".git\objects\2a\92993cf625fe250e56af84ac373e14a8140910" />
+    <None Include=".git\objects\32\32799a9b00d2a7354685fee0879b6683174fad" />
+    <None Include=".git\objects\42\5e356c464c8e28f8de88450bf63f4806424762" />
+    <None Include=".git\objects\7d\22d6a71aa112dc8f4f9cd317d676352d9d4f94" />
+    <None Include=".git\objects\7e\b6f10de5c5bc5d4b305527dedcabec1e5eb1c6" />
+    <None Include=".git\objects\84\7fc5ee5c7acc24580a7f9f6594ce23df905ade" />
+    <None Include=".git\objects\8b\15cbba25d3abd7301f70b35bfd3120ba43068b" />
+    <None Include=".git\objects\8f\175bf602acad326a1581a45e63a1bab4d6c68f" />
+    <None Include=".git\objects\94\91a2fda28342ab358eaf234e1afe0c07a53d62" />
+    <None Include=".git\objects\9e\c00a91a6d20fccc8319bb24c8f69b3e5f379f7" />
+    <None Include=".git\objects\ac\f23a5133a4af0e9773889825dfbac7208d5f66" />
+    <None Include=".git\objects\ae\c51a2ca6b9c684dda9b5821a55e87f504e7c6e" />
+    <None Include=".git\objects\b2\e83e1872e3e02e8bde036c7bb9a1df775df81d" />
+    <None Include=".git\objects\ba\f9be203817b11e87e6ae7552adf8039f1b4c6f" />
+    <None Include=".git\objects\c7\3e0d1692ab38cc8596bbd32ae080d903aaa778" />
+    <None Include=".git\objects\c8\04918467414282fce22ccd5011ac365f6d96d5" />
+    <None Include=".git\objects\dd\e067c1f1c626d3fc956ada7c6a506533cdde92" />
+    <None Include=".git\objects\eb\76d5978ff4c49ee9a8071744025f3e36e7561f" />
+    <None Include=".git\objects\f0\d3a70ceaa69fb70811f58254dc738e0f939eac" />
+    <None Include=".git\objects\f9\7e0bef3794a722993a31ce3fe61c60bab5c723" />
+    <None Include=".git\ORIG_HEAD" />
+    <None Include=".git\refs\heads\master" />
+    <None Include=".git\refs\remotes\origin\master" />
+    <None Include=".vs\banco\DesignTimeBuild\.dtbcache.v2" />
+    <None Include=".vs\banco\v16\.suo" />
+    <None Include="banco\banco.csproj" />
+    <None Include="banco\bin\Debug\netcoreapp3.1\banco.deps.json" />
+    <None Include="banco\bin\Debug\netcoreapp3.1\banco.runtimeconfig.dev.json" />
+    <None Include="banco\bin\Debug\netcoreapp3.1\banco.runtimeconfig.json" />
+    <None Include="banco\obj\banco.csproj.nuget.dgspec.json" />
+    <None Include="banco\obj\banco.csproj.nuget.g.props" />
+    <None Include="banco\obj\banco.csproj.nuget.g.targets" />
+    <None Include="banco\obj\Debug\netcoreapp3.1\banco.AssemblyInfoInputs.cache" />
+    <None Include="banco\obj\Debug\netcoreapp3.1\banco.assets.cache" />
+    <None Include="banco\obj\Debug\netcoreapp3.1\banco.csproj.AssemblyReference.cache" />
+    <None Include="banco\obj\Debug\netcoreapp3.1\banco.csproj.CoreCompileInputs.cache" />
+    <None Include="banco\obj\Debug\netcoreapp3.1\banco.genruntimeconfig.cache" />
+    <None Include="banco\obj\project.assets.json" />
+    <None Include="banco\obj\project.nuget.cache" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="banco\Cliente.cs" />
+    <Compile Include="banco\ClientePF.cs" />
+    <Compile Include="banco\ClientePJ.cs" />
+    <Compile Include="banco\Conta.cs" />
+    <Compile Include="banco\IConta.cs" />
+    <Compile Include="banco\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" />
+    <Compile Include="banco\obj\Debug\netcoreapp3.1\banco.AssemblyInfo.cs" />
+    <Compile Include="banco\Program.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".git\objects\info\" />
+    <Folder Include=".git\objects\pack\" />
+    <Folder Include=".git\refs\tags\" />
+    <Folder Include=".vs\BancoInvestimento\v16\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
