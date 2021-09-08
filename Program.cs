@@ -21,6 +21,13 @@ namespace banco
             Console.WriteLine("Saque realizado de R$ " + valor + " com sucesso");
             Console.WriteLine("Nome:" + cliPF.nome);
             Console.WriteLine("Valor atual: R$" + conta.saldoAtual);
+            Console.WriteLine();
+            Console.WriteLine("====================================================================");
+            Console.WriteLine();
+
+            //Dictionary<int, ContaInvestimentos> dicContaInvestimento = new Dictionary<int, ContaInvestimentos>();
+
+            //dicContaInvestimento.add(1, new ContaInvestimentos())
         }
     }
 }
