@@ -6,8 +6,8 @@ namespace banco
 {
     interface IConta
     {
-        public double SacarDinheiro(double valor);
+        double SacarDinheiro(double valor);
 
-        public double DepositarDinheiro(double valor);
+        double DepositarDinheiro(double valor);
     }
 }

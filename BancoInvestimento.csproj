@@ -106,6 +106,7 @@
     <None Include=".vs\banco\DesignTimeBuild\.dtbcache.v2" />
     <None Include=".vs\banco\v16\.suo" />
     <None Include="banco\banco.csproj" />
+    <None Include="banco\BancoInvestimento.csproj" />
     <None Include="banco\bin\Debug\netcoreapp3.1\banco.deps.json" />
     <None Include="banco\bin\Debug\netcoreapp3.1\banco.runtimeconfig.dev.json" />
     <None Include="banco\bin\Debug\netcoreapp3.1\banco.runtimeconfig.json" />
@@ -126,6 +127,7 @@
     <Compile Include="banco\ClientePF.cs" />
     <Compile Include="banco\ClientePJ.cs" />
     <Compile Include="banco\Conta.cs" />
+    <Compile Include="banco\ContaInvestimentos.cs" />
     <Compile Include="banco\IConta.cs" />
     <Compile Include="banco\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" />
     <Compile Include="banco\obj\Debug\netcoreapp3.1\banco.AssemblyInfo.cs" />

@@ -8,7 +8,7 @@ namespace banco
     {
         public string CPF { get; set; }
         public double renda { get; set; }
-        public string senha { get; set; }
+        public string sexo { get; set; }
 
     }
 }

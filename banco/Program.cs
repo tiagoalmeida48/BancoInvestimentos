@@ -16,11 +16,17 @@ namespace banco
             Console.WriteLine("Nome:" + cliPF.nome);
             Console.WriteLine("Valor atual: R$ " + conta.saldoAtual);
             Console.WriteLine();
-              
+
             conta.SacarDinheiro(30);
             Console.WriteLine("Saque realizado de R$ " + valor + " com sucesso");
             Console.WriteLine("Nome:" + cliPF.nome);
             Console.WriteLine("Valor atual: R$" + conta.saldoAtual);
+            Console.WriteLine();
+            Console.WriteLine("====================================================================");
+            Console.WriteLine();
+
+            ContaInvestimentos cInvestimentos = new ContaInvestimentos();
+            cInvestimentos.RetornarCliente();
         }
     }
 }
